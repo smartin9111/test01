@@ -6,11 +6,12 @@ namespace test01
     {
         static void Main(string[] args)
         {
-            
+            display("mouse");
+            Console.ReadKey();
         }
-        static void display()
+        static void display(string word)
         {
-            Console.WriteLine("first commit");
+            Console.WriteLine("##-" + word + "-##");
         }
     }
 }
